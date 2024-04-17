@@ -292,7 +292,7 @@ const Checkout = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero magnam fuga blanditiis debitis ipsa voluptates.</p>
                             <button onClick={() => route.push("/login")}>Login</button>
                         </div>)}
-                        {/* <div className={style.mobile}>
+                        <div className={style.mobile}>
                             <label>Enter Mobile Number</label>
                             <div>
                                 <select id="dropdown" name="dropdown">
@@ -330,8 +330,8 @@ const Checkout = () => {
 
                             </div>
 
-                        </div> */}
-                        {/* <div className={style.timeslot}>
+                        </div>
+                        <div className={style.timeslot}>
                             <h1>Slot</h1>
                             <h4>When Should the proffesional arrive?</h4>
                             <p>Your service will take approx <span>40</span>mins</p>
@@ -353,9 +353,9 @@ const Checkout = () => {
                                     <div onClick={() => { setHighlight2(9) }} className={highlight2 === 9 ? "checkout_highlight" : ""}>10:30AM</div>
                                 </div>
                             </div>
-                        </div> */}
-                        {/* <div className={style.seasonoffer}>
-                            <div >
+                        </div>
+                        <div className={style.seasonoffer}>
+                            {/* <div >
                                 <div>
                                     <div>
                                         <h1>Its Summer Time !</h1>
@@ -394,57 +394,9 @@ const Checkout = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div> */}
-                        <div className={style.section4_div1}>
-                            <div className={style.section4_div1_div2}>
-                                <div>
-                                    <h1>Its Summer Time !</h1>
-                                    <div>
-                                        <div>
-                                            <p>Get 30% Off First 50 Order.</p>
-                                            <div>
-                                                <Link href="/services">BOOK SERVICES</Link>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <Image
-                                                src="/homepage/Layer_31.png"
-                                                height={150}
-                                                width={400}
-                                                alt="img"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={style.section4_div1_div2}>
-                                <div>
-                                    <h1>Its All Time Offer !</h1>
-                                    <div>
-                                        <div>
-                                            <p>Get 45% Off More then 10 Services</p>
-                                            <div>
-                                                <Link href="/services">BOOK SERVICES</Link>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <Image
-                                                src="/homepage/Layer_35.png"
-                                                height={150}
-                                                width={400}
-                                                alt="img"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </div> */}
                         </div>
-                        <hr />
-                        <div className={style.cancellation}>
-                            <h3>Cancellation Policy</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, modi animi? Exercitationem aut reprehenderit recusandae nisi dolore fuga quod libero!</p>
-                        </div>
+                       
                     </div>
 
 
@@ -519,6 +471,55 @@ const Checkout = () => {
                             </div>
                             <hr />
 
+                        </div>
+                        <div className={style.section4_div1}>
+                            <div className={style.section4_div1_div2}>
+                                <div>
+                                    <h1>Its Summer Time !</h1>
+                                    <div>
+                                        <div>
+                                            <p>Get 30% Off First 50 Order.</p>
+                                            <div>
+                                                <Link href="/services">BOOK SERVICES</Link>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src="/homepage/Layer_31.png"
+                                                height={150}
+                                                width={400}
+                                                alt="img"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={style.section4_div1_div2}>
+                                <div>
+                                    <h1>Its All Time Offer !</h1>
+                                    <div>
+                                        <div>
+                                            <p>Get 45% Off More then 10 Services</p>
+                                            <div>
+                                                <Link href="/services">BOOK SERVICES</Link>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src="/homepage/Layer_35.png"
+                                                height={150}
+                                                width={400}
+                                                alt="img"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className={style.cancellation}>
+                            <h3>Cancellation Policy</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, modi animi? Exercitationem aut reprehenderit recusandae nisi dolore fuga quod libero!</p>
                         </div>
                         <div className={style.payment}>
                             <h2>Payment Method</h2>
