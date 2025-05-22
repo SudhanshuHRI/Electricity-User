@@ -536,6 +536,7 @@ export default function Home() {
                 //     "--swiper-pagination-bullet-border-radius": "0px"
                 // }}
                 >
+                  {console.log("hel",sliderServices)}
                   {sliderServices ? sliderServices?.map((t, index) => (
                     <SwiperSlide className={style.slider2_background} key={index}>
                       <Link href={`/singleService?id=${t?.subscription_id}`}  >
