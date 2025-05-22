@@ -2,7 +2,6 @@ import Link from "next/link"
 import { FaEnvelope } from "react-icons/fa6";
 export default function Home() {
   
-  
     return (
       <>
         <div className="page">
